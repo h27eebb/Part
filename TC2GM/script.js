@@ -3,27 +3,21 @@ const partsData = [
     {
         id: 'part1',
         name: 'الجزء الأول',
-        size: '2.00 GB', // تم التعديل إلى GB
-        url: 'https://akirabox.com/b5OzdRxDOmB8/file' // استبدل برابط التحميل الفعلي
+        size: '9.90 GB', // تم التعديل إلى GB
+        url: 'https://akirabox.com/gXeGORk4azAa/file' // استبدل برابط التحميل الفعلي
     },
     {
         id: 'part2',
         name: 'الجزء الثاني',
-        size: '2.00 GB', // تم التعديل إلى GB
-        url: 'https://akirabox.com/gXeGORyZjzAa/file' // استبدل برابط التحميل الفعلي
+        size: '9.90 GB', // تم التعديل إلى GB
+        url: 'https://akirabox.com/0JgG70NXnmoY/file' // استبدل برابط التحميل الفعلي
     },
     {
         id: 'part3',
         name: 'الجزء الثالث',
-        size: '2.00 GB', // تم التعديل إلى GB
-        url: 'https://akirabox.com/N2p3DJyx2GMa/file' // استبدل برابط التحميل الفعلي
+        size: '6.09 GB', // تم التعديل إلى GB
+        url: 'https://akirabox.com/9QWmp7xJQGEB/file' // استبدل برابط التحميل الفعلي
     },
-    {
-        id: 'part4',
-        name:  'الجزء الرابع',
-        size: '1.00 GB', // تم التعديل إلى GB
-        url: 'https://akirabox.com/0rpmv79KJ3Rg/file' // استبدل برابط التحميل الفعلي
-    }
     
     // يمكن إضافة أي عدد من البارتات هنا
 ];
@@ -135,12 +129,12 @@ class PartsDownloader {
     }
 
     displayFileInfo() {
-        this.fullFileNameDisplay.textContent = 'Car Mechanic Simulator 2021.pkg'; // اسم ملف افتراضي
+        this.fullFileNameDisplay.textContent = 'The Crew 2 game.pkg'; // اسم ملف افتراضي
         
         let totalSizeGB = 0;
         partsData.forEach(part => {
             // التأكد من أن الحجم بصيغة 'X.XX GB' واستخراج القيمة الرقمية
-            const sizeValue = parseFloat(part.size.replace('11.52 GB', ''));
+            const sizeValue = parseFloat(part.size.replace('25.89 GB', ''));
             if (!isNaN(sizeValue)) {
                 totalSizeGB += sizeValue;
             }
