@@ -39,7 +39,7 @@ const partsData = [
     {
         id: 'part7',
         name: 'الجزء السابع',
-        size: '629.14 MB', // تم التعديل إلى GB
+        size: '629 MB', // تم التعديل إلى GB
         url: 'https://akirabox.to/APVmalr9wGXo/file' // استبدل برابط التحميل الفعلي
     }
     // يمكن إضافة أي عدد من البارتات هنا
