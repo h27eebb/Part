@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts Downloader Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>🗂️ مركز تحميل البارتات</h1>
+            <div class="overall-progress">
+                <div class="progress-text">
+                    <span>التقدم: <span id="completed">0</span>/<span id="total">0</span></span>
+                    <span id="percentage">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="file-info-section">
+                <div class="file-name-display">
+                    <span>اسم الملف:</span> <span id="fullFileName"></span>
+                </div>
+                <div class="total-size-display">
+                    <span>الحجم الكلي:</span> <span id="totalFileSize"></span>
+                </div>
+            </div>
+            <div class="parts-grid" id="partsContainer">
+                <!-- البارتات ستُضاف هنا ديناميكياً -->
+            </div>
+            <div class="actions">
+                <button id="resetAllBtn" class="reset-btn">إعادة تعيين الكل</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            &copy; 2025 <a href="https://t.me/C9_9M" target="_blank">4GAMER</a>. جميع الحقوق محفوظة.
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
