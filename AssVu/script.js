@@ -135,7 +135,7 @@ class PartsDownloader {
     }
 
     displayFileInfo() {
-        this.fullFileNameDisplay.textContent = 'Assassins Creed Valhalla  update.pkg'; // اسم ملف افتراضي
+        this.fullFileNameDisplay.textContent = 'Assassins Creed Origins  update.pkg'; // اسم ملف افتراضي
         
         let totalSizeGB = 0;
         partsData.forEach(part => {
