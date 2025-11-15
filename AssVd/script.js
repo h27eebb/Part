@@ -129,7 +129,7 @@ class PartsDownloader {
     }
 
     displayFileInfo() {
-        this.fullFileNameDisplay.textContent = 'Assassins Creed Valhalla  DLC.pkg'; // اسم ملف افتراضي
+        this.fullFileNameDisplay.textContent = 'Assassins Creed Origins  DLC.pkg'; // اسم ملف افتراضي
         
         let totalSizeGB = 0;
         partsData.forEach(part => {
